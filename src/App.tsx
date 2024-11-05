@@ -1,9 +1,13 @@
 import React from 'react';
+import Form from './components/Form'
+import List from './components/List';
+import { time } from 'console';
 
 function App() {
   return (
     <div className="App">
-       Hello World
+       <Form />
+       <List />
     </div>
   );
 }
