@@ -1,12 +1,11 @@
 import React from 'react'
-
+import style from './Button.module.scss'
 class Button extends React.Component {
     render() {
-        const backgroundColor = 'red'
         return (
-            <button style={{
-                backgroundColor,
-            }}>Test</button>   
+            <button className={style.button}>
+                Start
+            </button>   
         )
     }
 }
