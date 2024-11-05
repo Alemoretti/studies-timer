@@ -2,8 +2,11 @@ import React from 'react'
 
 class Button extends React.Component {
     render() {
+        const backgroundColor = 'red'
         return (
-            <button>Test</button>   
+            <button style={{
+                backgroundColor,
+            }}>Test</button>   
         )
     }
 }
